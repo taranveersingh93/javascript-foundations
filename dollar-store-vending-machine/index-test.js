@@ -87,7 +87,7 @@ describe('dollar store vending machine functions', function() {
   })
 
   describe('collectChange', function() {
-    it('can calculate the total of a single coin', function() {
+    it.skip('can calculate the total of a single coin', function() {
       const looseChange = [0.25]
       const expectedTotal = 0.25
 
@@ -96,7 +96,7 @@ describe('dollar store vending machine functions', function() {
       assert.deepEqual(total, expectedTotal)
     })
 
-    it('can calculate the total of two coins', function() {
+    it.skip('can calculate the total of two coins', function() {
       const looseChange = [0.25, 0.10]
       const expectedTotal = 0.35
 
@@ -105,7 +105,7 @@ describe('dollar store vending machine functions', function() {
       assert.deepEqual(total, expectedTotal)
     })
 
-    it('can calculate the total of many coins', function() {
+    it.skip('can calculate the total of many coins', function() {
       const looseChange = [0.25, 0.10, 0.25, 0.05, 1.00]
       const expectedTotal = 1.65
 

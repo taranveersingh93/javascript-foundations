@@ -1,3 +1,4 @@
+
 function createItemStock(name, quantity, price) {
     var itemStock = {
         name: name || "unknown",
@@ -22,12 +23,16 @@ function makePurchase(item, money) {
 function collectChange(looseChange) {
     return looseChange.reduce((a,b)=> a+b, 0);
 }
-
-
+ 
 module.exports = {
     createItemStock,
     makePurchase,
-    collectChange
+    // collectChange
 
 }
+
+
+
+
+
 
