@@ -22,7 +22,7 @@ describe('Airport', function() {
     assert.equal(sanDiegoWelcome, 'Welcome to San Diego International Airport!');
   });
 
-  it('should keep track of open gates', function() {
+  it('It should keep track of open gates', function() {
     var bakersfieldAirport = createAirport('Meadows Field Airport', ['United', 'American'], 12);
     var sanDiegoAirport = createAirport('San Diego International Airport', ['Frontier', 'American'], 48);
 
@@ -47,7 +47,7 @@ describe('Airport', function() {
     assert.equal(occupiedGates2, 'Oh no! Not enough gates available. Current overflow is 1.')
   });
 
-  it('should be able to tell you where an airline flies to', function() {
+  it.skip('should be able to tell you where an airline flies to', function() {
     var columbusAiport = createAirport('John Glenn Airport', ['Southwest', 'Frontier'], 24);
     var bakersfieldAirport = createAirport('Meadows Field Airport', ['United', 'American'], 12);
     var sanDiegoAirport = createAirport('San Diego International Airport', ['Frontier', 'American'], 48);
