@@ -15,6 +15,7 @@ describe('Meal', function() {
     assert.deepEqual(appetizer.specialRequests, []);
     assert.equal(appetizer.tableNumber, 12);
   });
+
   it('should default to not complete', function() {
     var appetizer = createMeal('Chips & Salsa', [], 14);
 
